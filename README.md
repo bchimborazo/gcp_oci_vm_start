@@ -1,5 +1,5 @@
 # Creating Virtual Machines using GCP and Azure
-- Link to VM recording: [Zoom recording via Google Drive](https://drive.google.com/file/d/14dshx_CwPN6I0h6hDJrhaNeZSQHBA8Xl/view?usp=sharing)
+- Link to VM recording: [Zoom_recording_via_Google Drive](https://drive.google.com/file/d/14dshx_CwPN6I0h6hDJrhaNeZSQHBA8Xl/view?usp=sharing)
 - Used Microsoft ClipChamp to trim video
 
 ## Timestamps
@@ -27,12 +27,12 @@
 - Navigate to https://cloud.google.com and sign in
 - After signing in, navigate to the menu bar on the top left, select "Compute Engine" and "VM Instances"
 
-![GCP menu](images/GCP1.png)
+![GCP_menu](images/GCP1.png)
 
 - Select, "Create Instance"
 - For this assignment, we will configure our VM utilizing the following setting/options to produce the lowest cost VM possible
 
-![GCP settings](images/GCP2.png)
+![GCP_settings](images/GCP2.png)
 
 - Instance name: create a name, omit spaces (ex:assignment1-504)
 - Region: us-central1 (Iowa)
@@ -56,7 +56,7 @@
    ```
 - To stop or delete your instance, navigate back to your VM instances list, select your instance and click "stop" in the three-dot menu bar on the right
 
-![GCP stop and delete menu](images/GCP3.png)
+![GCP_stop_and_delete menu](images/GCP3.png)
 
 - Once stopped, using the same menu bar, select "Delete" to delete your instance
 - To verify that the instance has been deleted, navigate back to the "VM Instances" tab under "Compute Engine". If the VM does not appear then it's been sucessfully deleted
@@ -67,11 +67,11 @@
 - Once you sign in, navigate to "VM Creation"
 - Navigate to "Virtual machines" and click "Create"
 
-![Azure menu](images/Azure1.png)
+![Azure_menu](images/Azure1.png)
 
 - To create the lowest cost VM, select the following configurations/settings
 
-![Azure configurations](images/Azure2.png)
+![Azure_configurations](images/Azure2.png)
 
 - Resource group: Click "Create new", enter name
 - VM Name: create a name, no blank spaces
@@ -88,14 +88,14 @@
 - To keep things simple, we will keep the default settings for the remaining sections: "Disks", "Networking", "Management", "Monitoring", "Advanced", "Tags"
 - Navigate to "Review and Create", wait for validation to complete and hit "Create"
 
-![Azure VM validation](images/Azure3.png)
+![Azure_VM_validation](images/Azure3.png)
 
 - Once created, navitage to "Go to Resource", scroll to "Connect" and download the file. Enter the username and password you created for your VM.
 - Return to "Virtual Machines" 
 - Select your VM and click "Stop"
 - After stopping, click "Delete" to terminate 
 
-![Azure stop and delete](images/Azure5.png)
+![Azure_stop and_delete](images/Azure5.png)
 
 - Return to "Virtual Machines" to confirm that your VM has been successfully deleted
 
